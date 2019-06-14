@@ -1,5 +1,5 @@
 body {
-    background-color: #bfcfdf;
+    background-color: #8f9faf;
 }
 
 p {
@@ -8,14 +8,20 @@ p {
 }
 
 h1 {
-    font-size: 84px;
+    font-size: 72px;
     font-family: "Oleo Script Swash Caps";
     font-weight: lighter;
     margin: 0;
 }
+h2{
+    font-size: 36px;
+    font-family: "Arial";
+    font-style: italic;
+    margin-left: 50px;
+}
 
 #homeH {
-    background: linear-gradient(#52cfff, #bfcfdf);
+    background: linear-gradient(#52cfff, #8f9faf);
     padding-bottom: 100px;
 }
 
@@ -31,4 +37,28 @@ h1 {
     font-family: "Audiowide";
     font-weight: 200;
     color: #ffffff;
+}
+
+tr{
+    width: 100%;
+}
+td{
+    width: 100ch;
+}
+ol{
+    text-align: left;
+    margin-left: 50px;
+}
+li{
+    font-size: 24px;
+    font-family: "Times";
+}
+li:first-child{
+    color: #00ff00;
+}
+li:nth-child(2){
+    color: #ffff00;
+}
+li:last-child{
+    color: #ffaf00
 }
