@@ -21,7 +21,7 @@ h2{
 }
 
 #homeH {
-    background: linear-gradient(#52cfff, #8f9faf);
+    background: linear-gradient(#52cfff 50%, #8f9faf);
     padding-bottom: 100px;
 }
 
