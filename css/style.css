@@ -1,0 +1,34 @@
+body {
+    background-color: #bfcfdf;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Arial";
+}
+
+h1 {
+    font-size: 84px;
+    font-family: "Oleo Script Swash Caps";
+    font-weight: lighter;
+    margin: 0;
+}
+
+#homeH {
+    background: linear-gradient(#52cfff, #bfcfdf);
+    padding-bottom: 100px;
+}
+
+#sun {
+    height: 200px;
+    width: 200px;
+    background-color: #ffe500;
+    border-radius: 50%;
+}
+
+#sub {
+    font-size: 20px;
+    font-family: "Audiowide";
+    font-weight: 200;
+    color: #ffffff;
+}
