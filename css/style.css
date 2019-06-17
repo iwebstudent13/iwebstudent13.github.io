@@ -37,8 +37,12 @@ li{
 }
 
 /* HEADER */
+.site-id h1{
+    margin: 0;
+}
 header{
     background: linear-gradient(#000000, #494949);
+    padding: 1em 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -55,6 +59,7 @@ nav ul{
 nav li{
     color: #ffffff;
     list-style: none;
+    margin: 0;
 }
 
 /* FOOTER */
