@@ -1,7 +1,3 @@
-body {
-    background-color: #8f9faf;
-}
-
 p {
     font-size: 18px;
     font-family: "Arial";
@@ -18,25 +14,6 @@ h2{
     font-family: "Arial";
     font-style: italic;
     margin-left: 50px;
-}
-
-#homeH {
-    background: linear-gradient(#52cfff 50%, #8f9faf);
-    padding-bottom: 100px;
-}
-
-#sun {
-    height: 200px;
-    width: 200px;
-    background-color: #ffe500;
-    border-radius: 50%;
-}
-
-#sub {
-    font-size: 20px;
-    font-family: "Audiowide";
-    font-weight: 200;
-    color: #ffffff;
 }
 
 tr{
