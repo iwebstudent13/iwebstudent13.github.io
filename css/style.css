@@ -35,12 +35,34 @@ li{
     font-size: 24px;
     font-family: "Times";
 }
-li:first-child{
-    color: #00ff00;
+
+/* HEADER */
+header{
+    background: linear-gradient(#000000, #494949);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
-li:nth-child(2){
-    color: #ffff00;
+header a{
+    color: #ffffff;
 }
-li:last-child{
-    color: #ffbf44
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: .6em;
+}
+nav li{
+    color: #ffffff;
+    list-style: none;
+}
+
+/* FOOTER */
+footer {
+    border-top: 1px solid #ddd;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer nav ul {
+    justify-content: center;
 }
