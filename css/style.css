@@ -16,7 +16,7 @@ h2{
     margin-left: 50px;
 }
 h3{
-    font-size: 36px;
+    font-size: 48px;
     font-family: "Audiowide";
     margin-left: 50px;
 }
@@ -64,4 +64,12 @@ footer {
 }
 footer nav ul {
     justify-content: center;
+}
+
+header a {
+    font-size: 24px;
+    padding: 1em;
+}
+.site-id a {
+    font-size: 48px;
 }
