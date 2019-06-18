@@ -69,14 +69,38 @@ footer nav ul {
 header a {
     font-size: 24px;
     padding: 1em;
+    text-decoration: none;
 }
 .site-id a {
     font-size: 48px;
 }
 
 .hero{
-    margin: 3em 1em;
+    padding: 3em 1em;
+    background: linear-gradient(#52cfff 50%, #8f9faf);
 }
+.hero img{
+    height: 200px;
+    width: 200px;
+    background-color: #ffe500;
+    border-radius: 50%;
+}
+
 .lists{
-    margin: 2em 1em;
+    padding: 2em 1em;
+    background-color: #8f9faf;
+}
+
+footer{
+    background-color: #8f9faf;
+}
+
+.lists li:first-child{
+    color: #00ff00;
+}
+.lists li:nth-child(2){
+    color: #ffff00;
+}
+.lists li:last-child{
+    color: #ffcf22;
 }
