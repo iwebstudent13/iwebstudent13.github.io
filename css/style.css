@@ -94,6 +94,7 @@ header a {
     background-color: #8f9faf;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
 }
 
 .cat
@@ -110,4 +111,10 @@ footer{
 }
 .lists li:last-child{
     color: #ffcf22;
+}
+
+@media (max-width: 767px){
+    .lists{
+        grid-template-columns: 1fr 1fr;
+    }
 }
