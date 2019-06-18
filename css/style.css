@@ -73,3 +73,10 @@ header a {
 .site-id a {
     font-size: 48px;
 }
+
+.hero{
+    margin: 3em 1em;
+}
+.lists{
+    margin: 2em 1em;
+}
