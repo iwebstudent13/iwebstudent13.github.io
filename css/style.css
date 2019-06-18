@@ -78,6 +78,7 @@ header a {
 }
 
 .hero{
+    text-align: center;
     padding: 3em 1em;
     background: linear-gradient(#52cfff 50%, #8f9faf);
 }
@@ -91,7 +92,11 @@ header a {
 .lists{
     padding: 2em 1em;
     background-color: #8f9faf;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+.cat
 
 footer{
     background-color: #8f9faf;
