@@ -7,6 +7,8 @@ h1 {
     font-size: 72px;
     font-family: "Oleo Script Swash Caps";
     font-weight: lighter;
+    text-shadow: 0px 0px 2px #000000;
+    color: #ff00ff;
     margin: 0;
 }
 h2{
