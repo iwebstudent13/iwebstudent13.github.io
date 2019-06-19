@@ -140,13 +140,21 @@ header a {
 
 .blogEntry{
     width: 800px;
+    background: #bfbfc5;
     border: 2px solid #dddddd;
     margin: 2em auto;
     padding: 1em;
 }
-.blogDate{
+.blogEntry p{
+    font-family: "Courier New";
     font-weight: bold;
-    color: #efefef;
+}
+.blogEntry .blogDate{
+    font-family: "Arial";
+}
+.blogDate{
+    font-weight: bolder;
+    color: #353535;
     margin-left: 50px;
 }
 
