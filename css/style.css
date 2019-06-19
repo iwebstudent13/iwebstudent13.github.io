@@ -4,7 +4,11 @@ body{
 
 p {
     font-size: 18px;
-    font-family: "Arial";
+    font-family: "Times";
+    text-shadow: 0px 0px 1px #efefef;
+}
+p span {
+    margin-left: 4em;
 }
 
 h1 {
@@ -76,6 +80,7 @@ nav li{
 
 /* FOOTER */
 footer {
+    background-color: #8f9faf;
     border-top: 1px solid #ddd;
     max-width: 1000px;
     margin: 0 auto;
@@ -89,7 +94,6 @@ footer a {
     text-decoration: none;
     padding: 1em 2em;
 }
-
 header a {
     font-size: 24px;
     padding: 1em;
@@ -98,6 +102,8 @@ header a {
 .site-id a {
     font-size: 48px;
 }
+
+/* PAGE HEROS */
 
 .index-page .hero{
     text-align: center;
@@ -109,6 +115,11 @@ header a {
     padding: 3em 1em;
     background: linear-gradient(#df821a 50%, #8f9faf);
 }
+.blog-page .hero{
+    text-align: center;
+    padding: 3em 1em;
+    background: linear-gradient(#08ff5a 50%, #8f9faf);
+}
 
 .hero img{
     height: 200px;
@@ -116,6 +127,8 @@ header a {
     background-color: #ffe500;
     border-radius: 50%;
 }
+
+/* MAIN */
 
 .lists{
     padding: 2em 1em;
@@ -125,10 +138,16 @@ header a {
     grid-column-gap: 1em;
 }
 
-.cat
-
-footer{
-    background-color: #8f9faf;
+.blogEntry{
+    width: 800px;
+    border: 2px solid #dddddd;
+    margin: 2em auto;
+    padding: 1em;
+}
+.blogDate{
+    font-weight: bold;
+    color: #efefef;
+    margin-left: 50px;
 }
 
 .index-page .lists li:first-child{
