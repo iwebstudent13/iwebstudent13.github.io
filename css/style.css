@@ -184,6 +184,9 @@ header a {
 .index-page .lists li:last-child{
     color: #ffcf22;
 }
+.index-page .lists .li{
+    text-shadow: 0px 0px 2px #000000;
+}
 
 @media (max-width: 767px){
     .lists{
