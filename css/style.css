@@ -114,16 +114,24 @@ header a {
 
 .index-page .hero{
     text-align: center;
-    padding: 3em 1em;
+    padding: 5em 1em;
     background-image: url("https://picsum.photos/id/215/1920/1080");
     background-size: cover;
-    background-position: center center;
+    background-position: 50% 30%;
 }
+.index-page h1{
+    margin-top: 3em;
+}
+.index-page .hero p{
+    margin-top: 3em;
+}
+
 .about-page .hero{
     text-align: center;
     padding: 3em 1em;
-    background: linear-gradient(#df821a 50%, #52cfff);
+    background: linear-gradient(#dfa21a 50%, #52cfff);
 }
+
 .blog-page .hero{
     text-align: center;
     padding: 3em 1em;
