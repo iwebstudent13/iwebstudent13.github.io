@@ -38,6 +38,7 @@ nav ul {
     justify-content: flex-end;
     margin: 0;
     padding-top: .6em;
+    height: 5vh;
 }
 nav li {
     color: #ffffff;
@@ -75,10 +76,10 @@ h2{
     margin-left: 50px;
 }
 .index-page .hero{
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     text-align: center;
-    background-image: url("iwebstudent13.github.io/BeachImg.jpg");
+    background-image: url("https://github.com/iwebstudent13/iwebstudent13.github.io/blob/master/BeachImg.jpg");
     background-size: cover;
     background-position: 50% 30%;
     padding: 5em 1em;
