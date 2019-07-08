@@ -61,7 +61,7 @@ p span {
 
 /* HERO */
 h1 {
-    font-size: 84px;
+    font-size: 96px;
     font-family: "Oleo Script Swash Caps";
     font-weight: lighter;
     text-shadow: 0px 0px 2px #000000;
@@ -75,17 +75,20 @@ h2{
     margin-left: 50px;
 }
 .index-page .hero{
+    height: 100vh;
+    width: 100%;
     text-align: center;
-    padding: 5em 1em;
-    background-image: url("https://picsum.photos/id/215/1920/1080");
+    background-image: url("BeachImg.jpg");
     background-size: cover;
     background-position: 50% 30%;
+    padding: 5em 1em;
 }
 .index-page h1{
     margin-top: 3em;
 }
 .index-page .hero p {
-    margin-top: 3em;
+    margin-top: 1em;
+    font-size: 28px;
 }
 .about-page .hero {
     text-align: center;
@@ -121,7 +124,14 @@ li {
     grid-column-gap: 1em;
 }
 .lists li {
-
+    font-weight: bold;
+    font-family: Arial;
+    list-style: none;
+}
+.lists img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
 }
 .sub-page ul {
     text-align: left;
