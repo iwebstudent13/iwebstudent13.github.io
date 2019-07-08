@@ -78,7 +78,7 @@ h2{
     height: 100vh;
     width: 100%;
     text-align: center;
-    background-image: "BeachImg.jpg";
+    background-image: url(BeachImg.jpg);
     background-size: cover;
     background-position: 50% 30%;
     padding: 5em 1em;
