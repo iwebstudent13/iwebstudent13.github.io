@@ -59,6 +59,14 @@ p {
 p span {
     margin-left: 4em;
 }
+.games {
+    text-align: center;
+}
+iframe {
+    height: 800px;
+    width: 80%;
+    margin: 2em;
+}
 
 /* HERO */
 h1 {
@@ -79,7 +87,7 @@ h2{
     height: 90vh;
     width: 100%;
     text-align: center;
-    background-image: url("ImagesBeachImg.jpg");
+    background-image: url("Images\\BeachImg.jpg");
     background-size: cover;
     background-position: 50% 30%;
     padding: 5em 1em;
