@@ -59,7 +59,7 @@ p {
 p span {
     margin-left: 4em;
 }
-.games {
+.games, .uiDesigns {
     text-align: center;
 }
 iframe {
@@ -87,7 +87,6 @@ h2{
     height: 90vh;
     width: 100%;
     text-align: center;
-    background-image: url("Images\\BeachImg.jpg");
     background-size: cover;
     background-position: 50% 30%;
     padding: 5em 1em;
@@ -159,6 +158,15 @@ li {
 }
 .index-page .lists .li {
     text-shadow: 0px 0px 2px #000000;
+}
+
+/* UI Designs */
+.uiDesigns {
+    text-align: center;
+}
+.uiDesigns img {
+    max-width: 400px;
+    margin-bottom: 2em;
 }
 
 /* BLOG */
