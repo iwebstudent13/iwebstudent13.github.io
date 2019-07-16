@@ -48,6 +48,7 @@ nav li {
 
 /* MAIN */
 body {
+    width: 100%;
     background: #52cfff;
     margin: 0;
 }
